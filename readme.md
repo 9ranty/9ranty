@@ -1,5 +1,5 @@
-# citylist
+# 9ranty's site
 
-A little app to make lunch easier 
+A little bit about me for the WWW.
 
 *Uses Tachyons*# 9ranty
