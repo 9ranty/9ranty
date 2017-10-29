@@ -397,14 +397,6 @@ img { max-width: 100%; }
 .b--light-gray { border-color: #eee; }
 .b--near-white { border-color: #f4f4f4; }
 .b--white { border-color: #fff; }
-.b--city-light-green { border-color: #C4F9DA;}
-.b--city-green { border-color: #04E762; }
-.b--city-dark-green { border-colour: #03CE57; }
-.b--city-light-purple { border-color: #EBECFF;}
-.b--city-purple { border-color: #7D83FF; }
-.b--city-dark-purple { border-color: #5D62BF; }
-.b--city-light-red { border-color: #FDE8EC; }
-.b--city-red { border-color: #ED254E; }
 .b--white-90 { border-color: rgba( 255, 255, 255, .9 ); }
 .b--white-80 { border-color: rgba( 255, 255, 255, .8 ); }
 .b--white-70 { border-color: rgba( 255, 255, 255, .7 ); }
@@ -1144,14 +1136,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .white-30 { color: rgba( 255, 255, 255, .3 ); }
 .white-20 { color: rgba( 255, 255, 255, .2 ); }
 .white-10 { color: rgba( 255, 255, 255, .1 ); }
-.city-light-green { color: #C4F9DA;}
-.city-green { color: #04E762; }
-.city-dark-green { color: #03CE57; }
-.city-light-purple { color: #EBECFF;}
-.city-purple { color: #7D83FF; }
-.city-dark-purple { color: #5D62BF; }
-.city-light-red { color: #FDE8EC; }
-.city-red { color: #ED254E; }
 .black { color: #000; }
 .near-black { color: #111; }
 .dark-gray { color: #333; }
@@ -1209,14 +1193,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
 /* Background colors */
-.bg-city-light-green { background-color: #C4F9DA;}
-.bg-city-green { background-color: #04E762; }
-.bg-city-dark-green { background-color: #03CE57; }
-.bg-city-light-purple { background-color: #EBECFF;}
-.bg-city-purple { background-color: #7D83FF; }
-.bg-city-dark-purple { background-color: #5D62BF; }
-.bg-city-light-red { background-color: #FDE8EC; }
-.bg-city-red { background-color: #ED254E; }
 .bg-black { background-color: #000; }
 .bg-near-black { background-color: #111; }
 .bg-dark-gray { background-color: #333; }
