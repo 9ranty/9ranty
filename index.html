@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- HTML Meta Tags -->
 	<title>9ranty | Grant Shaddick</title>
+	<meta name="description" content="Software Product Manager. From Auckland, NZ. Based in Amsterdam, NL.">
+
+	<!-- Google / Search Engine Tags -->
+	<meta itemprop="name" content="9ranty | Grant Shaddick">
+	<meta itemprop="description" content="Software Product Manager. From Auckland, NZ. Based in Amsterdam, NL.">
+	<meta itemprop="image" content="https://d8frvfsghz3rs.cloudfront.net/previews/96ae/8fef09ff-0d21-519d-984f-f9dac3d4ea55/548c7f3f-5687-4cf9-bc15-adebb9643644/800x800x0?Expires=1516180551&Signature=fuSKdHmXBVbPptekVGWFiZaKLzg-NARxj-rSqND7Bw1WaXFHAgNPCfVjXGEBAGZlq%7EY5C5rsqqPahYXVjdCi9WLDt-vW2mHhlBbQNKDfiQRZzaWGJ9H77fm5Qrwnub8IrhMOQIHzh48UWNE%7E4mfd4CJ5SLO%7EG897pZtrJgi3zQmSPEpDAKqXFhIKZrlR1iwozK%7EkNKdlCW%7EupDFIvbXLWRWhGIUDs6z3WY80OYpg4O1EIBL-NglXP7qxySfM18KGC6RjQ90zMpL3r%7EQPgKMSF1XY92YisKiOVcH5ALwduVWKX4gTn6eOx6dOAlTm%7E9femlC7b%7EQoo5-IRwRma7YEhQ__&Key-Pair-Id=APKAIXO33LHWDB6MM7MA&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8qLmNsb3VkZnJvbnQubmV0L3ByZXZpZXdzLyovOGZlZjA5ZmYtMGQyMS01MTlkLTk4NGYtZjlkYWMzZDRlYTU1LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTYxODA1NTF9fX1dfQ__">
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="http://9ranty.com">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="9ranty | Grant Shaddick">
+	<meta property="og:description" content="Software Product Manager. From Auckland, NZ. Based in Amsterdam, NL.">
+	<meta property="og:image" content="https://d8frvfsghz3rs.cloudfront.net/previews/96ae/8fef09ff-0d21-519d-984f-f9dac3d4ea55/548c7f3f-5687-4cf9-bc15-adebb9643644/800x800x0?Expires=1516180551&Signature=fuSKdHmXBVbPptekVGWFiZaKLzg-NARxj-rSqND7Bw1WaXFHAgNPCfVjXGEBAGZlq%7EY5C5rsqqPahYXVjdCi9WLDt-vW2mHhlBbQNKDfiQRZzaWGJ9H77fm5Qrwnub8IrhMOQIHzh48UWNE%7E4mfd4CJ5SLO%7EG897pZtrJgi3zQmSPEpDAKqXFhIKZrlR1iwozK%7EkNKdlCW%7EupDFIvbXLWRWhGIUDs6z3WY80OYpg4O1EIBL-NglXP7qxySfM18KGC6RjQ90zMpL3r%7EQPgKMSF1XY92YisKiOVcH5ALwduVWKX4gTn6eOx6dOAlTm%7E9femlC7b%7EQoo5-IRwRma7YEhQ__&Key-Pair-Id=APKAIXO33LHWDB6MM7MA&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8qLmNsb3VkZnJvbnQubmV0L3ByZXZpZXdzLyovOGZlZjA5ZmYtMGQyMS01MTlkLTk4NGYtZjlkYWMzZDRlYTU1LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTYxODA1NTF9fX1dfQ__">
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="9ranty | Grant Shaddick">
+	<meta name="twitter:description" content="Software Product Manager. From Auckland, NZ. Based in Amsterdam, NL.">
+	<meta name="twitter:image" content="https://d8frvfsghz3rs.cloudfront.net/previews/96ae/8fef09ff-0d21-519d-984f-f9dac3d4ea55/548c7f3f-5687-4cf9-bc15-adebb9643644/800x800x0?Expires=1516180551&Signature=fuSKdHmXBVbPptekVGWFiZaKLzg-NARxj-rSqND7Bw1WaXFHAgNPCfVjXGEBAGZlq%7EY5C5rsqqPahYXVjdCi9WLDt-vW2mHhlBbQNKDfiQRZzaWGJ9H77fm5Qrwnub8IrhMOQIHzh48UWNE%7E4mfd4CJ5SLO%7EG897pZtrJgi3zQmSPEpDAKqXFhIKZrlR1iwozK%7EkNKdlCW%7EupDFIvbXLWRWhGIUDs6z3WY80OYpg4O1EIBL-NglXP7qxySfM18KGC6RjQ90zMpL3r%7EQPgKMSF1XY92YisKiOVcH5ALwduVWKX4gTn6eOx6dOAlTm%7E9femlC7b%7EQoo5-IRwRma7YEhQ__&Key-Pair-Id=APKAIXO33LHWDB6MM7MA&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8qLmNsb3VkZnJvbnQubmV0L3ByZXZpZXdzLyovOGZlZjA5ZmYtMGQyMS01MTlkLTk4NGYtZjlkYWMzZDRlYTU1LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTYxODA1NTF9fX1dfQ__">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112471305-1"></script>
@@ -12,8 +32,7 @@
 
 	  gtag('config', 'UA-112471305-1');
 	</script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <meta name=”description” content=”Software Product Manager. From Auckland, NZ. Based in Amsterdam, NL.“>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/custom_gradient.css">
